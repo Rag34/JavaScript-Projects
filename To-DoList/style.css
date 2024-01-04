@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    margin: 0;
+    /* background-color: red; */
+}
+
+.container{
+    text-align: center;
+    /* background-color: red; */
+    color: white;
+    padding: 10px;
+    background-color: black;
+    /* height: 50vh; */
+    border-radius: 8px;
+}
+
+input{
+    padding: 10px;
+    margin-right: 5px;
+    border-radius: 11px;
+    background-color:white;
+    color: black;
+    font-size: 30px;
+    text-align: center;
+}
+
+button{
+    padding: 10px;
+    cursor: pointer;
+    font-size: 30px;
+    border-radius: 11px;
+}
+
+#heading{
+    padding: 10px;
+    font-size: 35px;
+    color: white;
+}
+
+ul{
+    list-style-type: none;
+    padding: 0;
+}
+
+li{
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #ddd;
+    cursor: pointer;
+    background-color: red;
+    color: white;
+    transition: background-color 0.3s ease;
+}
+
+li:hover{
+    background-color: white;
+    color: red;
+
+}
+
+.completed {
+    background-color: #cfc; /* Change the background color for completed tasks */
+    color: black;
+}
