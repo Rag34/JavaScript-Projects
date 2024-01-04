@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Password Generator</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <script src="script.js"></script>
+    <div class="container">
+      <div class="pwdgen">
+        <h1 id="heading">Password Generator</h1>
+        <div class="gen">
+          <h3 id="para">To generate 4 digit Password click on Generate Button</h3>
+          <div class="password">
+            <span id="output"><p class="passwordbox"></p></span>
+            <i class="fa-solid fa-clipboard" onclick="copyPassword()"></i>
+          </div>
+          <div class="btns">
+            <div class="genbtn">
+              <button id="generate">Generate</button>
+            </div>
+          </div>
+          <div class="copy">
+            <button id="copy">Copy to Clipboard</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

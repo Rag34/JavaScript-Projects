@@ -1,0 +1,72 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: teal;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  border: 2px solid white;
+  height: 45
+  vh;
+  width: 150vh;
+  margin-top: 174px;
+  margin-left: 350px;
+  margin-right: 80px;
+  border-radius: 14px;
+  background-color: white;
+  color: teal;
+  padding: 10px;
+}
+
+#heading{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 10px;
+}
+
+#para{
+    padding: 10px;
+    margin-bottom: 10px;
+}
+/* .btns{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} */
+
+.genbtn button{
+    padding: 11px;
+    margin-left: 150px;
+    font-size: larger;
+    margin-top: 20px;
+    border-radius: 14px;
+}
+
+#output{
+    border: 2px solid teal;
+    margin-left: 140px;
+    font-size: 25px;
+    font-weight: bold;
+    color: black;
+    border-radius: 14px;
+    padding: 10px;
+    margin-bottom: 10px;
+    /* width: 40px; */
+}
+
+.copy button{
+    padding: 11px;
+    margin-left: 120px;
+    font-size: larger;
+    margin-top: 10px;
+    border-radius: 14px;
+}
